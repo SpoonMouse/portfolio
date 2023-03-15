@@ -1,0 +1,49 @@
+.port__sidebar {
+    width: 25%;
+    height: 100vh;
+    background-color: var(--color-light);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .port__sidebar-container_content  {
+    padding-bottom: 14rem;
+
+}
+
+
+  .port__sidebar-container_content h1 {
+    font-family: var(--font-family);
+    font-size: 70px;
+    color: var(--color-plain);
+    cursor: pointer;
+  }
+
+  .about {
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .links {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .links a {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: var(--color-plain);
+  }

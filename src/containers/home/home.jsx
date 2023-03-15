@@ -1,6 +1,6 @@
 import './home.css';
-import Fish from '../../components/fish/fish.jsx';
-import { Links } from '../../components';
+import Sidebar from '../../components/sidebar/sidebar.jsx';
+
 function Home() {
   return (
     
@@ -11,6 +11,9 @@ function Home() {
         <div className='port__home-container'>
           <h1>a react <span>developer</span></h1>
           <h4>adaptability is my specialty</h4>
+        </div>
+        <div className='port__home-sidebar'>
+          <Sidebar />
         </div>
      
     </div>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Yantramanav:wght@100&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,5 +21,5 @@ code {
 --color-light: #1cb3bd;
 --color-grey: #131313;
 --color-black: #0E0D0D;
---font-family: 'Inter';
+--font-family: 'Poppins', sans-serif;
 }
