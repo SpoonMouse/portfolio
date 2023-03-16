@@ -8,7 +8,7 @@ function Links() {
     <div className='port__links-container'>
       <div className='port__links-content'>
         <div className='port__links-content_cv'>
-       <a href="https://drive.google.com/file/d/1M-OPxJEnRE8k6663U9vRKqLgT2uwnA-3/view?usp=share_link">Resume</a>
+       <a href="https://drive.google.com/file/d/1M-OPxJEnRE8k6663U9vRKqLgT2uwnA-3/view?usp=share_link">resume</a>
         </div>
         <div className='port__links-content_socialbtns'>
         <a href="https://github.com"><FontAwesomeIcon className='github' icon={faGithub} /></a>

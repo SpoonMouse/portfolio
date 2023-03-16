@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
 .port__home {
     display: flex;
     flex-direction: column;
@@ -10,7 +12,8 @@
   
   .port__home-name {
     position: absolute;
-    font-family: var(--font-family);
+    font-family: 'Caveat', cursive;
+    font-size: 37px;
     color: var(--color-light);
     top: 20px;
     left: 20px;

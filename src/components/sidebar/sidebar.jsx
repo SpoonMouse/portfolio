@@ -9,8 +9,8 @@ function Sidebar() {
       </div>
       <div className='port__sidebar-container'>
         <div className='port__sidebar-container_content'>
-          <h1 className='about'>about</h1>
-          <h1>projects</h1>
+         <a href="#about"><h1 className='about'>about</h1></a>
+         <a href="#projects"><h1 className='projects'>projects</h1></a> 
         </div>
       </div>
     </div>

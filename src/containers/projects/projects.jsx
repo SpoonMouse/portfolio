@@ -2,7 +2,7 @@ import './projects.css';
 
 function Projects() {
   return (
-    <div>
+    <div className='port__projects'>
       
     </div>
   );

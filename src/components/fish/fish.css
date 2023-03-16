@@ -1,0 +1,38 @@
+img {
+    position: absolute;
+    height: 256px;
+    width: 450px;
+    animation-delay: 0.5s;
+
+}
+
+
+.fishA {
+    top: 4rem;
+    left: 2rem;
+}
+
+.fishB {
+    top: 40rem;
+    left: 8rem
+}
+
+.fishC {
+    top: 50rem;
+    right: 59rem
+}
+
+.fishD {
+    top: 18rem;
+    right: 42rem;
+}
+
+.fishE {
+    top: 8rem;
+    right: 78rem;
+}
+
+.fishF {
+    top: 50rem;
+    right: 24rem;
+}

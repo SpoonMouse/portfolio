@@ -1,8 +1,8 @@
 .port__sidebar {
     width: 25%;
-    height: 100vh;
+    height: 73.7rem;
     background-color: var(--color-light);
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     display: flex;
@@ -24,6 +24,12 @@
     color: var(--color-plain);
     cursor: pointer;
   }
+
+  .port__sidebar-container_content a {
+    text-decoration: none;
+  
+  }
+
 
   .about {
     padding-left: 1.5rem;
