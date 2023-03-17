@@ -1,13 +1,13 @@
 .port__about {
     background-color: var(--color-black);
-    height: 30vh;
+    height: 69vh;
 }
 
 .port__about-header {
     padding-top: 4rem;
+    margin-left: 25.5rem;
     display: flex;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
 }
 
 .port__about-header h1 {
@@ -21,8 +21,13 @@
     line-height: 2em;
     word-spacing: 1px;
     color: white;
-    text-align: center;
+    padding-left: 15rem;
+    text-align: left;
     display: flex;
-    justify-content: center;
-    
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.port__about-content:last-child p{
+    padding-top: 2rem;
 }

@@ -1,0 +1,12 @@
+.port__pcard {
+    height: 600px;
+    width: 400px;
+    background-color: var(--color-black);
+    padding: 2rem;
+}
+
+.port__pcard-image img{
+    padding-right: 0.5rem;
+    height: 230px;
+    width: 390px;
+}

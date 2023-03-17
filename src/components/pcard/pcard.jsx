@@ -10,6 +10,8 @@ function Pcard({imgUrl, projectTitle, projectText, projectLogo}) {
         <div className='port__pcard-content'>
             <div className='port__card-content_logos'>
                 <FontAwesomeIcon icon={projectLogo}/>
+                <FontAwesomeIcon icon={projectLogo}/>
+                <FontAwesomeIcon icon={projectLogo}/>
             </div>
             <div className='port__pcard-content_btns'>
               <a href="google.com">visit</a>

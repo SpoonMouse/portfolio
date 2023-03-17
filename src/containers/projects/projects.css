@@ -1,0 +1,29 @@
+.port__projects {
+    background-color: var(--color-plain);
+    height: 100vh;
+}
+
+
+.port__projects-header {
+    padding-top: 6rem;
+    margin-left: 25rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.port__projects-header h1{
+    color: var(--color-light);
+    font-size: 60px;
+    font-family: var(--font-family);
+
+}
+
+
+.port__projects-pcard {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
