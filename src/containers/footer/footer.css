@@ -1,0 +1,14 @@
+.port__footer {
+    background-color: var(--color-black);
+    
+}
+
+.port__footer-content p{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: white;
+    font-family: var(--font-family);
+    cursor: pointer;
+
+}

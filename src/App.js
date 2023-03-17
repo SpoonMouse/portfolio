@@ -9,6 +9,7 @@ function App() {
       <Skills />
       <About />
       <Projects />
+      <Footer />
     </div>
   );
 }

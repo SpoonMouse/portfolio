@@ -1,12 +1,58 @@
 .port__pcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
     height: 600px;
     width: 400px;
     background-color: var(--color-black);
     padding: 2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0, 0.25);
 }
 
+.port__pcard-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .port__pcard-image img{
-    padding-right: 0.5rem;
-    height: 230px;
-    width: 390px;
+    height: 250px;
+    width: 600x;
+}
+
+.port__pcard-content_logos{
+    position: relative;
+    top: 280px;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.port__pcard-content_logos div {
+    margin-left: 1rem;
+}
+
+
+.port__pcard-content_btns {
+    position: relative;
+    top: 250px;
+    left: 220px;
+}
+
+.port__pcard-content_btns  a {
+    text-decoration: none;
+    margin-right: 2rem;
+    border: 2px solid var(--color-plain);
+    padding: 0 1rem 0 1rem;
+    font-size: 19px;
+    font-family: var(--font-family);
+    color: var(--color-light)
+}
+.port__pcard-content_text {
+    position: relative;
+    top: 270px;
+    left: 5px;
+    color: var(--color-light);
 }
